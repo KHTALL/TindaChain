@@ -240,8 +240,7 @@ This is financial infrastructure for the *actual* Filipino informal economy, bui
 
 A sari-sari store owner in Tondo, Manila sells ₱15,000/day in FMCGs (fast-moving consumer goods: sardines, instant noodles, sugar, rice) from a 3sqm stall. She re-orders from her neighborhood distributor via text message, pays cash on delivery, and tracks stock in a paper notebook. When she miscounts and under-reorders, she runs out of her top sellers mid-week and loses 20–30% of daily revenue. She has no proof of payment, no dispute mechanism, and no credit history to grow her store.
 
-## Solution
-
+## Project Description (Solution)
 TindaChain puts her inventory ledger and supplier payments on Stellar. She logs every sale on a mobile app (GCash/Maya login), which calls a Soroban contract to decrement stock. When stock hits her reorder threshold, she funds an on-chain escrow with PHP-pegged anchor tokens in one tap. The supplier delivers and she confirms — the payment atomically releases. No cash disputes. No lost receipts. A verified on-chain payment history that doubles as her credit record.
 
 **Why Stellar specifically:**
@@ -463,9 +462,12 @@ This is financial infrastructure for the *actual* Filipino informal economy, bui
 
 ---
 
-## Deployed Contract Link:
+## Deployed Contract Details:
 [1] https://stellar.expert/explorer/testnet/tx/af344313961dfe405c2bf713365c4270d20e7923fd1255ef91ff4934cfb2330a
 [2] https://lab.stellar.org/smart-contracts/contract-explorer?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&smartContracts$explorer$contractId=CBR3T3AUT6QOHP4EJXNDD36WZ5JWWJ7LJDVMFIU7W4NNDOLOGKT23ZSQ;;
+
+# Future Scope 
+The project is still in progress.
 
 ## License
 
